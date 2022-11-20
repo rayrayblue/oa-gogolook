@@ -11,6 +11,11 @@ You just need to implement in repository layer using TaskRepository interface.
 ## How to run
 Please follow the instructions below to run the service.
 
+### Configuration
+Only one environment variable (SERVER_ADDRESS=0.0.0.0:8888) is required to run the service.
+app.env file contains the environment variable, which locates in configs folder.
+
+
 ### build image
 
 ```bash
